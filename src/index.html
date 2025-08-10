@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>OldMadinah Font Analyzer</title>
+
+</head>
+
+<body>
+  <div class="column">
+    <div class="top">
+      <input id="inputSearch" type="search" />
+      <input type="checkbox" id="marks" /><label>Marks</label>
+      <input type="checkbox" id="classes" checked/><label>Classes</label>
+      <input type="checkbox" id="isol" checked/><label>Isol</label>
+      <input type="checkbox" id="init" checked/><label>Init</label>
+      <input type="checkbox" id="medi" checked/><label>Medi</label>
+      <input type="checkbox" id="fina" checked/><label>Fina</label>
+      <button id="quranSearch" style="margin-left: 10px;">Search</button>
+      <button id="saveQuran" style="margin-left: 10px;">Save</button>
+      <label id="nbResult" style="margin-left: 10px;"></label>
+    </div>
+    <div class="bottom">
+      <table id="result">
+        <thead>
+          <tr>
+            <th>Page</th>
+            <th>Line</th>
+            <th>dk_v1</th>
+            <th>qpc_v1</th>
+          </tr>
+        </thead>
+        <tbody id="resultBody"></tbody>
+      </table>
+    </div>
+  </div>
+</body>
+
+</html>
